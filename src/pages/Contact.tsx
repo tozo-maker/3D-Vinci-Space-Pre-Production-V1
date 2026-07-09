@@ -12,8 +12,11 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Contact Us | Access the Laboratory"
-        description="Get in touch for professional 3D printing quotes, design consultations, and inquiries."
+        title="Contact Our Laboratory | Start Your Project"
+        description="Get in touch with 3D Vinci's Tbilisi laboratory. Request FDM printing quotas, custom composite compounding, design consulting, or order inquiries."
+        canonical="https://3dvinci.space/contact"
+        type="website"
+        keywords={['Contact 3D printing Tbilisi', 'request FDM quota Georgia', 'additive lab location', 'Tbilisi maker contact', 'industrial design quote']}
       />
       <div className="w-full pb-32 selection:bg-brand-accent selection:text-white">
         <section className="pt-32 pb-16 px-6 md:px-16 max-w-[1800px] mx-auto w-full">

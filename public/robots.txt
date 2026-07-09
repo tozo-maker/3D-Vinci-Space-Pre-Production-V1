@@ -1,0 +1,42 @@
+# 3D Vinci Studio robots.txt — Structured for Search & AI Engines
+
+# Allow standard web search bots
+User-agent: *
+Allow: /
+Disallow: /api/proxy-image
+
+# Specific rules for Conversational and Search AI Crawlers
+User-agent: GPTBot
+Allow: /
+Allow: /api/ai-context
+Disallow: /api/proxy-image
+
+User-agent: ChatGPT-User
+Allow: /
+Allow: /api/ai-context
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /api/ai-context
+Disallow: /api/proxy-image
+
+User-agent: Claude-Web
+Allow: /
+Allow: /api/ai-context
+
+User-agent: Google-Extended
+Allow: /
+Allow: /api/ai-context
+
+User-agent: Applebot-Extended
+Allow: /
+Allow: /api/ai-context
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /api/ai-context
+
+# Sitemap & AI Agent Manifest locations
+Sitemap: /sitemap.xml
+ai-manifest: /api/ai-context
+ai-manifest: /.well-known/ai-manifest.json

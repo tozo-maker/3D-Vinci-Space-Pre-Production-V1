@@ -113,8 +113,11 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Industrial Grade 3D Printing & Fabrication"
-        description="Precision engineered objects for modern spaces. Discover our latest collection of architectural and industrial designs."
+        title="Industrial Grade 3D Printing & Custom Fabrication"
+        description="Precision engineered objects for modern spaces. Discover our latest collection of architectural and industrial designs, crafted locally in Tbilisi, Georgia."
+        canonical="https://3dvinci.space/"
+        type="website"
+        keywords={['3D Printing Georgia', 'Additive Manufacturing Tbilisi', '3D Vinci Studio', 'Parametric Design Objects', 'Industrial 3D Printing', 'Bespoke Fabrication Caucasus']}
       />
       <div className="w-full flex flex-col font-sans bg-brand-bg selection:bg-brand-accent selection:text-white">
         {/* 1. Hero Section - Asymmetrical Typography & Images */}

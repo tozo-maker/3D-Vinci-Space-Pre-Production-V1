@@ -50,8 +50,17 @@ export default function Services() {
   return (
     <>
       <SEO
-        title="Professional 3D Printing Services"
-        description="Professional-grade additive manufacturing tailored precisely to personalized needs. Prototyping, production runs, and education."
+        title="Professional 3D Printing & Industrial Design Services"
+        description="Professional-grade additive manufacturing, rapid functional prototyping, custom CAD modeling, and industrial short-run production tailored to your engineering or aesthetic needs."
+        canonical="https://3dvinci.space/services"
+        type="service"
+        serviceData={{
+          name: "Industrial 3D Printing & Design Optimization",
+          description: "High-precision additive manufacturing, structural testing, and custom material compounding for architectural, artistic, and functional projects.",
+          providerName: "3D Vinci Studio",
+          areaServed: "Tbilisi, Georgia & Caucasus Region"
+        }}
+        keywords={['3D Printing Services Georgia', 'Tbilisi FDM 3D printing', 'custom CAD prototyping', 'industrial design Tbilisi', 'rapid prototyping Georgia', 'material compounding']}
       />
       <div className="w-full flex flex-col pb-32 selection:bg-brand-accent selection:text-white">
         <section className="pt-32 pb-24 px-6 md:px-16 max-w-[1800px] mx-auto w-full">

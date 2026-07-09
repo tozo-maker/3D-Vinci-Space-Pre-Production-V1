@@ -44,8 +44,11 @@ export default function Tools() {
   return (
     <>
       <SEO
-        title="Engineered Tools & Objects"
-        description="Browse our collection of precision-engineered tools, hardware, and decorative objects."
+        title="Engineered Tools & Parametric Organizers Catalog"
+        description="Browse our curated collection of precision-engineered tools, desktop organizers, mathematical sculptures, and modular hardware custom printed in premium composites."
+        canonical="https://3dvinci.space/tools"
+        type="website"
+        keywords={['Engineered Tools Georgia', 'Parametric Organizers Tbilisi', '3D Printed Desktop Accessories', 'Modular Hardware Designs', 'Generative Design Objects', '3D Vinci Catalog']}
       />
       <div className="w-full min-h-screen bg-brand-bg pb-32 selection:bg-brand-accent selection:text-white">
         <div className="pt-32 pb-16 px-6 md:px-16 max-w-[1800px] mx-auto w-full">

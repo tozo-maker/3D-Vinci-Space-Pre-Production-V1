@@ -74,9 +74,11 @@ export default function Journal() {
   return (
     <>
       <SEO
-        title="Journal & Insights"
-        description="Articles, insights, and stories from the cutting edge of additive manufacturing and engineering."
+        title="Journal, Material Science Insights & Chronicles"
+        description="Technical articles, structural testing diaries, material compound breakdowns, and studio stories from the cutting edge of additive manufacturing in Tbilisi, Georgia."
+        canonical="https://3dvinci.space/journal"
         type="article"
+        keywords={['Material Science Blog', '3D Printing Chronicles', 'Additive Manufacturing Tbilisi Research', 'PLA Carbon Fiber Testing', 'Studio Diaries Georgia', '3D Vinci Journal']}
       />
       <div className="w-full pb-32 selection:bg-brand-accent selection:text-white">
         <section className="pt-32 pb-16 px-6 md:px-16 max-w-[1800px] mx-auto w-full">

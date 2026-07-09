@@ -266,12 +266,10 @@ export default function App() {
           <div className="flex items-center gap-8">
             
             <div className="hidden lg:flex items-center gap-6 font-mono text-[10px] uppercase tracking-widest text-brand-muted mr-4">
+              <Link to="/made-in-georgia" className="hover:text-brand-text transition-colors">Made in Georgia</Link>
               <Link to="/services" className="hover:text-brand-text transition-colors">Services</Link>
               <Link to="/tools" className="hover:text-brand-text transition-colors">Tools</Link>
-              <Link to="/made-in-georgia" className="hover:text-brand-text transition-colors">Made in Georgia</Link>
               <Link to="/journal" className="hover:text-brand-text transition-colors">Journal</Link>
-              <Link to="/about" className="hover:text-brand-text transition-colors">About</Link>
-              <Link to="/contact" className="hover:text-brand-text transition-colors">Contact</Link>
             </div>
 <button onClick={() => setIsSearchOpen(true)} aria-label="Open search" className="flex items-center gap-2 text-brand-text hover:text-black transition-colors group focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-text/50 rounded-full p-1 -m-1">
               <span className="font-mono text-[10px] uppercase tracking-[0.2em] hidden md:block opacity-0 group-hover:opacity-100 transition-opacity translate-x-2 group-hover:translate-x-0">Search</span>

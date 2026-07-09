@@ -12,8 +12,11 @@ export default function About() {
   return (
     <>
       <SEO
-        title="About Us | Making Ideas Real"
-        description="3D Vinci is a creative 3D printing studio dedicated to making ideas real—accessible, functional, and built to last."
+        title="About Our Studio | Additive Craftsmanship Manifesto"
+        description="Learn about the 3D Vinci team, our specialized Tbilisi fabrication laboratory, our material compounding research, and our spatial philosophy."
+        canonical="https://3dvinci.space/about"
+        type="website"
+        keywords={['About 3D Vinci', 'Fabrication laboratory Tbilisi', 'Georgia design collective', 'additive manufacturing craftsmanship', 'additive design manifesto']}
       />
       <div className="w-full pb-32 selection:bg-brand-accent selection:text-white">
         <section className="pt-32 pb-16 px-6 md:px-16 max-w-[1800px] mx-auto w-full">

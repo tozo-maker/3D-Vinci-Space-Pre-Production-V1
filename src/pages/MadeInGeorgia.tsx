@@ -128,8 +128,11 @@ export default function MadeInGeorgia() {
   return (
     <>
       <SEO
-        title="Made In Georgia | Local Manufacturing"
-        description="Precision engineered objects for modern spaces. Manufactured locally in Tbilisi with the highest industrial standards."
+        title="Made in Georgia | Local Additive Manufacturing & Craft"
+        description="Bespoke furniture, custom installations, and precision engineered objects manufactured locally in our Tbilisi laboratory with the highest industrial standards."
+        canonical="https://3dvinci.space/made-in-georgia"
+        type="website"
+        keywords={['Made in Georgia 3D', 'Tbilisi Design Studio', 'Georgian Manufacturers', 'Local Production Tbilisi', 'Bespoke Architectural Installations', 'Parametric Furniture Georgia']}
       />
       <div className="w-full flex flex-col font-sans bg-brand-bg selection:bg-brand-accent selection:text-white">
         {/* ----------------- SECTION 01: STANDARD HERO ----------------- */}

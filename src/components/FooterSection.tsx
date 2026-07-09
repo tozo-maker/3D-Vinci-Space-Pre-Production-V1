@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function FooterSection() {
   return (
     <footer className="bg-brand-surface border-t border-brand-border">
       <div className="max-w-[1800px] mx-auto px-4 md:px-6 py-24 md:py-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-16 lg:gap-8">
-        <div className="lg:col-span-5 flex flex-col justify-between">
+        <div className="lg:col-span-4 flex flex-col justify-between">
           <div>
             <h2 className="text-4xl md:text-5xl font-semibold tracking-tighter text-brand-text mb-6">Signature Objects.</h2>
             <p className="text-brand-muted max-w-sm text-lg leading-relaxed mb-12">
@@ -16,12 +17,18 @@ export default function FooterSection() {
           </p>
         </div>
 
-        <div className="lg:col-span-3 flex flex-col gap-6">
+        <div className="lg:col-span-2 flex flex-col gap-6">
            <h4 className="font-mono text-[11px] font-bold uppercase tracking-widest text-brand-text mb-4">Exhibition</h4>
            <a href="#" className="text-brand-muted hover:text-brand-text transition-colors text-lg">Current Collection</a>
            <a href="#" className="text-brand-muted hover:text-brand-text transition-colors text-lg">Past Campaigns</a>
            <a href="#" className="text-brand-muted hover:text-brand-text transition-colors text-lg">Bespoke Commissions</a>
            <a href="#" className="text-brand-muted hover:text-brand-text transition-colors text-lg">Studio Locator</a>
+        </div>
+
+        <div className="lg:col-span-2 flex flex-col gap-6">
+           <h4 className="font-mono text-[11px] font-bold uppercase tracking-widest text-brand-text mb-4">Studio</h4>
+           <Link to="/about" className="text-brand-muted hover:text-brand-text transition-colors text-lg">About</Link>
+           <Link to="/contact" className="text-brand-muted hover:text-brand-text transition-colors text-lg">Contact</Link>
         </div>
 
         <div className="lg:col-span-4 flex flex-col gap-8">

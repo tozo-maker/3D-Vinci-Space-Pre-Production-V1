@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "name": "3D Vinci Studio AI Discovery",
+  "description": "Dynamic AI manifest supplying technical 3D printing, material specifications, and custom spatial object portfolios for LLMs.",
+  "contact_email": "lab@3dvinci.space",
+  "legal_info_url": "https://3dvinci.space/about",
+  "ai_endpoints": {
+    "dynamic_context": "/api/ai-context",
+    "ai_search": "/api/ai-search"
+  },
+  "content_guidelines": {
+    "pricing_currency": "GEL",
+    "delivery_area": "Georgia (Tbilisi, Batumi, Kutaisi, etc.)",
+    "file_specifications": ["STL", "OBJ", "STEP", "3MF"],
+    "materials_available": ["Carbon Fiber PLA", "Wood Composites", "Matte PLA", "Industrial PETG", "ABS", "TPU Flexible"]
+  }
+}
