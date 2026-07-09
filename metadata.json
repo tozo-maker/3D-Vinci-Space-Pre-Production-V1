@@ -1,0 +1,8 @@
+{
+  "name": "3D Vinci Products listing V3a",
+  "description": "Modern Objects. Made in Georgia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
